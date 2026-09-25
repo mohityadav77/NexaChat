@@ -130,14 +130,4 @@ Build the frontend with `npm run build`, deploy `dist/` to a static host, and ru
 
 The app handles empty messages, repeated sends while loading, provider failures, retry, message search with no results, deleting the active conversation, renaming with an empty value, corrupted localStorage, and backend unavailability. `/error` is a development-only mock command that exercises the error UI.
 
-## Resume Version
 
-**NexaChat — Smart AI Conversation Workspace**  
-**Tech:** React, JavaScript, HTML, CSS, Vite, Node.js, Express.js, MongoDB, JWT
-
-- Built a responsive AI conversation workspace in React with reusable components, controlled forms, async loading/error states, message search, markdown/code rendering, and keyboard interactions.
-- Implemented local-first persistence for conversations, message feedback, selected chat, preferences, and light/dark themes using custom hooks, JSON serialization, and localStorage.
-- Designed an AI service abstraction with mock-provider fallback and optional Express integration, keeping provider logic separate from the UI.
-- Added a beginner-friendly Express/Mongoose backend with REST routes, bcrypt password hashing, JWT authentication, MongoDB persistence, and in-memory fallback behavior.
-
-See [INTERVIEW_GUIDE.md](./INTERVIEW_GUIDE.md) and [TESTING_CHECKLIST.md](./TESTING_CHECKLIST.md) for project-specific preparation and verification.
